@@ -2,7 +2,7 @@ delete-merged
 =============
 **Additional function to delete merged branches in [Zsh](http://www.zsh.org).**
 
-## Usage
+## Installation
 
 ### Using zsh framework [oh-my-zsh](http://github.com/robbyrussell/oh-my-zsh)
 
@@ -33,7 +33,17 @@ delete-merged
     source path/to/plugin/delete-merged.plugin.zsh
 ```
 
-## Additional information using zsh completion
 
-[zsh-completions-howto](https://github.com/zsh-users/zsh-completions/blob/master/zsh-completions-howto.org)
+## Usage
 
+Deleting all merged branches:
+
+```
+    gbmcleanup
+```
+
+Using interactive mode to manually accept/reject the deletion of each branch
+
+```
+    gbmcleanup -i
+```
